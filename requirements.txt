@@ -1,5 +1,4 @@
 pyarrow
-pyspark
 jupyterlab-rise
 requests
 certifi
