@@ -1,4 +1,4 @@
-from confluent_kafka import Producer, KafkaError
+from confluent_kafka import Producer
 import json
 import utils.ccloud_lib as ccloud_lib
 
@@ -22,11 +22,16 @@ def acked(err, msg):
 
 if __name__ == '__main__':
     args = ccloud_lib.parse_args()
-    producer_conf = ccloud_lib.read_ccloud_config(args.config_file)
-    
+    producer_conf = ccloud_lib.read_ccloud_config(
+        args.config_file,
+        args.bootstrap_servers,
+    )
+
     # Create topic if needed
     ccloud_lib.create_topic(producer_conf, args.topic)
-    producer = Producer(producer_conf)
+    producer = Producer(
+        ccloud_lib.pop_schema_registry_params_from_config(producer_conf.copy())
+    )
 
     for i in range(10):
         msg = create_message(i)

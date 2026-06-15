@@ -1,37 +1,25 @@
+from pathlib import Path
 
 import faust
-from faust.types.auth import AuthProtocol
-import ssl
-from utils import ccloud_lib
+
 from faust_music_events import MusicEvent
+from utils.faust_helpers import build_app_kwargs, ensure_faust_topics, load_kafka_config
 
-# Read the Kafka configuration
-kafka_app_config = ccloud_lib.read_ccloud_config("kafka.config")
+CONFIG_FILE = Path(__file__).with_name("kafka.config")
+APP_ID = "music_stream_processor"
+SOURCE_TOPIC = "music-fhtw"
 
-# Set up SASL credentials
-creds = faust.SASLCredentials(
-    username=kafka_app_config['sasl.username'],
-    password=kafka_app_config['sasl.password'],
-    mechanism='PLAIN',
-    ssl_context=ssl.create_default_context()
-)
+kafka_app_config = load_kafka_config(CONFIG_FILE)
+ensure_faust_topics(kafka_app_config, APP_ID, [SOURCE_TOPIC], ["song_plays"])
 
-# Initialize the Faust app
-app = faust.App('music_stream_processor',
-                topic_replication_factor=3,
-                topic_partitions=1,
-                broker=f"kafka://{kafka_app_config['bootstrap.servers']}",
-                value_serializer='json',
-                store='rocksdb://',
-                broker_credentials=creds)
+app = faust.App(APP_ID, **build_app_kwargs(kafka_app_config))
 
-# Define a Kafka topic with MusicEvent as the value type
-topic = app.topic('music_streams', value_type=MusicEvent)
-song_plays = app.Table('song_plays', default=int)
+topic = app.topic(SOURCE_TOPIC, value_type=MusicEvent)
+song_plays = app.Table("song_plays", default=int)
 
-# Define a stream processor
+
 @app.agent(topic)
 async def process(stream):
     async for event in stream:
         song_plays[event.userId] += 1
-        print(f'User {event.userId} has listened to {song_plays[event.userId]} songs.')
+        print(f"User {event.userId} has listened to {song_plays[event.userId]} songs.")

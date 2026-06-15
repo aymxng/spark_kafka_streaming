@@ -1,6 +1,5 @@
-from confluent_kafka import Consumer, Producer
+from confluent_kafka import Consumer
 import json
-import utils.ccloud_lib as ccloud_lib
 
 def run_consumer(consumer_conf, consumer_name, topic, process):
     # set custom group name
@@ -14,7 +13,6 @@ def run_consumer(consumer_conf, consumer_name, topic, process):
     consumer.subscribe([topic])
 
     # Process messages
-    total_count = 0
     try:
         while True:
             msg = consumer.poll(1.0)
@@ -29,7 +27,6 @@ def run_consumer(consumer_conf, consumer_name, topic, process):
                 print('error: {}'.format(msg.error()))
             else:
                 # Check for Kafka message
-                record_key = msg.key()
                 record_value = msg.value()
                 # in case that ingested that isn't json
                 try:
