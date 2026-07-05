@@ -1,0 +1,506 @@
+{
+  "nb-exec-test-user-2": {
+    "interactions": 12,
+    "generated_at": 1783289365.446018,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 64,
+        "track_name": "Garota De Ipanema",
+        "artist": "Ant\u00f4nio Carlos Jobim",
+        "album": "Warner 25 Anos",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 85.98
+      },
+      {
+        "rank": 2,
+        "track_id": 65,
+        "track_name": "Samba De Uma Nota S\u00f3 (One Note Samba)",
+        "artist": "Ant\u00f4nio Carlos Jobim",
+        "album": "Warner 25 Anos",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 85.98
+      },
+      {
+        "rank": 3,
+        "track_id": 66,
+        "track_name": "Por Causa De Voc\u00ea",
+        "artist": "Ant\u00f4nio Carlos Jobim",
+        "album": "Warner 25 Anos",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 85.98
+      },
+      {
+        "rank": 4,
+        "track_id": 67,
+        "track_name": "Ligia",
+        "artist": "Ant\u00f4nio Carlos Jobim",
+        "album": "Warner 25 Anos",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 85.98
+      },
+      {
+        "rank": 5,
+        "track_id": 68,
+        "track_name": "Fotografia",
+        "artist": "Ant\u00f4nio Carlos Jobim",
+        "album": "Warner 25 Anos",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 85.98
+      }
+    ]
+  },
+  "user-d940b497": {
+    "interactions": 11,
+    "generated_at": 1783289365.4001808,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 551,
+        "track_name": "The Rover",
+        "artist": "Led Zeppelin",
+        "album": "Physical Graffiti [Disc 1]",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 19.98
+      },
+      {
+        "rank": 2,
+        "track_id": 552,
+        "track_name": "In My Time Of Dying",
+        "artist": "Led Zeppelin",
+        "album": "Physical Graffiti [Disc 1]",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 19.98
+      },
+      {
+        "rank": 3,
+        "track_id": 553,
+        "track_name": "Houses Of The Holy",
+        "artist": "Led Zeppelin",
+        "album": "Physical Graffiti [Disc 1]",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 19.98
+      },
+      {
+        "rank": 4,
+        "track_id": 554,
+        "track_name": "Trampled Under Foot",
+        "artist": "Led Zeppelin",
+        "album": "Physical Graffiti [Disc 1]",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 19.98
+      },
+      {
+        "rank": 5,
+        "track_id": 555,
+        "track_name": "Kashmir",
+        "artist": "Led Zeppelin",
+        "album": "Physical Graffiti [Disc 1]",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 19.98
+      }
+    ]
+  },
+  "user-452aff53": {
+    "interactions": 25,
+    "generated_at": 1783289365.4582894,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 2044,
+        "track_name": "Vulc\u00e3o Dub - Fui Eu",
+        "artist": "Os Paralamas Do Sucesso",
+        "album": "Ac\u00fastico MTV",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.98
+      },
+      {
+        "rank": 2,
+        "track_id": 2045,
+        "track_name": "O Trem Da Juventude",
+        "artist": "Os Paralamas Do Sucesso",
+        "album": "Ac\u00fastico MTV",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.98
+      },
+      {
+        "rank": 3,
+        "track_id": 2046,
+        "track_name": "Manguetown",
+        "artist": "Os Paralamas Do Sucesso",
+        "album": "Ac\u00fastico MTV",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.98
+      },
+      {
+        "rank": 4,
+        "track_id": 2047,
+        "track_name": "Um Amor, Um Lugar",
+        "artist": "Os Paralamas Do Sucesso",
+        "album": "Ac\u00fastico MTV",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.98
+      },
+      {
+        "rank": 5,
+        "track_id": 2048,
+        "track_name": "Bora-Bora",
+        "artist": "Os Paralamas Do Sucesso",
+        "album": "Ac\u00fastico MTV",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.98
+      }
+    ]
+  },
+  "user-5b8cc40b": {
+    "interactions": 10,
+    "generated_at": 1783289793.3188167,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 1352,
+        "track_name": "Intro",
+        "artist": "Iron Maiden",
+        "album": "Rock In Rio [CD1]",
+        "genre": "Metal",
+        "unit_price": 0.99,
+        "score": 5.48
+      },
+      {
+        "rank": 2,
+        "track_id": 1353,
+        "track_name": "The Wicker Man",
+        "artist": "Iron Maiden",
+        "album": "Rock In Rio [CD1]",
+        "genre": "Metal",
+        "unit_price": 0.99,
+        "score": 5.48
+      },
+      {
+        "rank": 3,
+        "track_id": 1354,
+        "track_name": "Ghost Of The Navigator",
+        "artist": "Iron Maiden",
+        "album": "Rock In Rio [CD1]",
+        "genre": "Metal",
+        "unit_price": 0.99,
+        "score": 5.48
+      },
+      {
+        "rank": 4,
+        "track_id": 1356,
+        "track_name": "Wrathchild",
+        "artist": "Iron Maiden",
+        "album": "Rock In Rio [CD1]",
+        "genre": "Metal",
+        "unit_price": 0.99,
+        "score": 5.48
+      },
+      {
+        "rank": 5,
+        "track_id": 1357,
+        "track_name": "2 Minutes To Midnight",
+        "artist": "Iron Maiden",
+        "album": "Rock In Rio [CD1]",
+        "genre": "Metal",
+        "unit_price": 0.99,
+        "score": 5.48
+      }
+    ]
+  },
+  "user-1f266e89": {
+    "interactions": 37,
+    "generated_at": 1783289881.272806,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 530,
+        "track_name": "Ando Meio Desligado",
+        "artist": "Os Mutantes",
+        "album": "Minha Hist\u00f3ria",
+        "genre": "Alternative & Punk",
+        "unit_price": 0.99,
+        "score": 8.48
+      },
+      {
+        "rank": 2,
+        "track_id": 531,
+        "track_name": "Top Top",
+        "artist": "Os Mutantes",
+        "album": "Minha Hist\u00f3ria",
+        "genre": "Alternative & Punk",
+        "unit_price": 0.99,
+        "score": 8.48
+      },
+      {
+        "rank": 3,
+        "track_id": 532,
+        "track_name": "Baby",
+        "artist": "Os Mutantes",
+        "album": "Minha Hist\u00f3ria",
+        "genre": "Alternative & Punk",
+        "unit_price": 0.99,
+        "score": 8.48
+      },
+      {
+        "rank": 4,
+        "track_id": 533,
+        "track_name": "A E O Z",
+        "artist": "Os Mutantes",
+        "album": "Minha Hist\u00f3ria",
+        "genre": "Alternative & Punk",
+        "unit_price": 0.99,
+        "score": 8.48
+      },
+      {
+        "rank": 5,
+        "track_id": 534,
+        "track_name": "Panis Et Circenses",
+        "artist": "Os Mutantes",
+        "album": "Minha Hist\u00f3ria",
+        "genre": "Alternative & Punk",
+        "unit_price": 0.99,
+        "score": 8.48
+      }
+    ]
+  },
+  "user-c0e699c8": {
+    "interactions": 28,
+    "generated_at": 1783289957.2380419,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 843,
+        "track_name": "Otay",
+        "artist": "Dennis Chambers",
+        "album": "Outbreak",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 11.48
+      },
+      {
+        "rank": 2,
+        "track_id": 844,
+        "track_name": "Groovus Interruptus",
+        "artist": "Dennis Chambers",
+        "album": "Outbreak",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 11.48
+      },
+      {
+        "rank": 3,
+        "track_id": 845,
+        "track_name": "Paris On Mine",
+        "artist": "Dennis Chambers",
+        "album": "Outbreak",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 11.48
+      },
+      {
+        "rank": 4,
+        "track_id": 846,
+        "track_name": "In Time",
+        "artist": "Dennis Chambers",
+        "album": "Outbreak",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 11.48
+      },
+      {
+        "rank": 5,
+        "track_id": 847,
+        "track_name": "Plan B",
+        "artist": "Dennis Chambers",
+        "album": "Outbreak",
+        "genre": "Jazz",
+        "unit_price": 0.99,
+        "score": 11.48
+      }
+    ]
+  },
+  "user-2e0801fb": {
+    "interactions": 12,
+    "generated_at": 1783290026.308716,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 1201,
+        "track_name": "Different World",
+        "artist": "Iron Maiden",
+        "album": "A Matter of Life and Death",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 34.98
+      },
+      {
+        "rank": 2,
+        "track_id": 1202,
+        "track_name": "These Colours Don't Run",
+        "artist": "Iron Maiden",
+        "album": "A Matter of Life and Death",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 34.98
+      },
+      {
+        "rank": 3,
+        "track_id": 1203,
+        "track_name": "Brighter Than a Thousand Suns",
+        "artist": "Iron Maiden",
+        "album": "A Matter of Life and Death",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 34.98
+      },
+      {
+        "rank": 4,
+        "track_id": 1204,
+        "track_name": "The Pilgrim",
+        "artist": "Iron Maiden",
+        "album": "A Matter of Life and Death",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 34.98
+      },
+      {
+        "rank": 5,
+        "track_id": 1205,
+        "track_name": "The Longest Day",
+        "artist": "Iron Maiden",
+        "album": "A Matter of Life and Death",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 34.98
+      }
+    ]
+  },
+  "user-8395a1c0": {
+    "interactions": 14,
+    "generated_at": 1783290093.2848482,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 1057,
+        "track_name": "Entrando Na Sua (Intro)",
+        "artist": "Funk Como Le Gusta",
+        "album": "Roda De Funk",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.48
+      },
+      {
+        "rank": 2,
+        "track_id": 1058,
+        "track_name": "Nervosa",
+        "artist": "Funk Como Le Gusta",
+        "album": "Roda De Funk",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.48
+      },
+      {
+        "rank": 3,
+        "track_id": 1059,
+        "track_name": "Funk De Bamba (Com Fernanda Abreu)",
+        "artist": "Funk Como Le Gusta",
+        "album": "Roda De Funk",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.48
+      },
+      {
+        "rank": 4,
+        "track_id": 1060,
+        "track_name": "Call Me At Cleo\u00b4s",
+        "artist": "Funk Como Le Gusta",
+        "album": "Roda De Funk",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.48
+      },
+      {
+        "rank": 5,
+        "track_id": 1061,
+        "track_name": "Olhos Coloridos (Com Sandra De S\u00e1)",
+        "artist": "Funk Como Le Gusta",
+        "album": "Roda De Funk",
+        "genre": "Latin",
+        "unit_price": 0.99,
+        "score": 15.48
+      }
+    ]
+  },
+  "user-1b54fa7b": {
+    "interactions": 15,
+    "generated_at": 1783290431.9410965,
+    "tracks": [
+      {
+        "rank": 1,
+        "track_id": 2611,
+        "track_name": "Rise",
+        "artist": "The Cult",
+        "album": "Beyond Good And Evil",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 31.98
+      },
+      {
+        "rank": 2,
+        "track_id": 2612,
+        "track_name": "Take The Power",
+        "artist": "The Cult",
+        "album": "Beyond Good And Evil",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 31.98
+      },
+      {
+        "rank": 3,
+        "track_id": 2609,
+        "track_name": "War (The Process)",
+        "artist": "The Cult",
+        "album": "Beyond Good And Evil",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 31.98
+      },
+      {
+        "rank": 4,
+        "track_id": 2610,
+        "track_name": "The Saint",
+        "artist": "The Cult",
+        "album": "Beyond Good And Evil",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 31.98
+      },
+      {
+        "rank": 5,
+        "track_id": 2613,
+        "track_name": "Breathe",
+        "artist": "The Cult",
+        "album": "Beyond Good And Evil",
+        "genre": "Rock",
+        "unit_price": 0.99,
+        "score": 31.98
+      }
+    ]
+  }
+}
